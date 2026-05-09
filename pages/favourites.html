@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourites</title>
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <script>
+      if (!localStorage.getItem("loggedInUser")) {
+        window.location.replace("/pages/login.html");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="brand">
+          <a href="/">Filmomatics</a>
+        </div>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search Movies..." />
+        </div>
+        <div class="nav-links">
+          <a href="/pages/cart.html" class="nav-btn btn-cart">Cart🛒</a>
+          <a href="/pages/favourites.html" class="nav-btn btn-favourite active"
+            >Favourites❤️</a
+          >
+          <span class="nav-divider"></span>
+
+          <div class="guest-links">
+            <a href="/pages/register.html" class="nav-btn btn-register"
+              >Register</a
+            >
+            <a href="/pages/login.html" class="nav-btn btn-login">Login</a>
+          </div>
+          <div class="user-links">
+            <span class="user-greeting"></span>
+            <a class="nav-btn btn-logout" href="/">Logout</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="favourite-items">
+        <div class="section-header">
+          <h2>Favourites</h2>
+          <div class="pagination"></div>
+        </div>
+        <div class="cards"></div>
+        <div class="pagination"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="brand">
+          <a href="/">Filmomatics</a>
+        </div>
+        <p>A curated collection of films for the discerning viewer.</p>
+        <p class="footer-credit">© 2025 Filmomatics. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/assets/js/config.js"></script>
+    <script src="/assets/js/favourites.js"></script>
+  </body>
+</html>

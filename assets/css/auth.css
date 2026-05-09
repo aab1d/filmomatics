@@ -1,0 +1,108 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 3rem 2.5rem;
+  border: 1px solid var(--highlight);
+  position: relative;
+}
+.auth-container::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: -6px;
+  bottom: -6px;
+  border: 1px solid var(--muted);
+  z-index: -1;
+}
+.auth-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  color: var(--ink);
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+}
+.form-group label {
+  font-size: 0.8rem;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.form-group input {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--muted);
+  background: transparent;
+  font-family: var(--body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  outline: none;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.form-group input:focus {
+  border-color: var(--accent);
+  background: rgba(74, 122, 138, 0.06);
+}
+.form-group input::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+.auth-container button[type="submit"] {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background: var(--highlight);
+  color: var(--background);
+  border: none;
+  font-family: var(--body);
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.auth-container button[type="submit"]:hover {
+  opacity: 0.85;
+}
+
+.auth-container > p {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.auth-container > p a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.auth-container > p a:hover {
+  border-bottom-color: var(--accent);
+}
+.back-home {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-family: var(--body);
+  font-size: 0.85rem;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.back-home:hover {
+  color: var(--accent);
+}
