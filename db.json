@@ -1,0 +1,201 @@
+{
+  "movies": [
+    {
+      "Title": "The Lion King",
+      "Year": "2019",
+      "Runtime": "118 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+      "id": "1"
+    },
+    {
+      "Title": "Mowgli: Legend of the Jungle",
+      "Year": "2018",
+      "Runtime": "104 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
+      "id": "2"
+    },
+    {
+      "Title": "Doctor Strange",
+      "Year": "2016",
+      "Runtime": "115 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+      "id": "3"
+    },
+    {
+      "Title": "John Wick",
+      "Year": "2014",
+      "Runtime": "101 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+      "id": "4"
+    },
+    {
+      "Title": "The Notebook",
+      "Year": "2004",
+      "Runtime": "123 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjE0ZjgzMzYtMTAxYi00NGMzLThmZDktNzFlMzA2MWRmYWQ0XkEyXkFqcGc@._V1_QL75_UX144_CR0,1,144,213_.jpg",
+      "id": "5"
+    },
+    {
+      "Title": "Inception",
+      "Year": "2010",
+      "Runtime": "148 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "id": "6"
+    },
+    {
+      "Title": "Interstellar",
+      "Year": "2014",
+      "Runtime": "169 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "id": "7"
+    },
+    {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "Runtime": "152 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "id": "8"
+    },
+    {
+      "Title": "Avengers: Endgame",
+      "Year": "2019",
+      "Runtime": "181 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+      "id": "9"
+    },
+    {
+      "Title": "Spider-Man: No Way Home",
+      "Year": "2021",
+      "Runtime": "148 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg",
+      "id": "10"
+    },
+    {
+      "Title": "The Shawshank Redemption",
+      "Year": "1994",
+      "Runtime": "142 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg",
+      "id": "11"
+    },
+    {
+      "Title": "Forrest Gump",
+      "Year": "1994",
+      "Runtime": "142 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "id": "12"
+    },
+    {
+      "Title": "Gladiator",
+      "Year": "2000",
+      "Runtime": "155 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "id": "13"
+    },
+    {
+      "Title": "The Matrix",
+      "Year": "1999",
+      "Runtime": "136 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
+      "id": "14"
+    },
+    {
+      "Title": "Titanic",
+      "Year": "1997",
+      "Runtime": "194 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "id": "15"
+    },
+    {
+      "Title": "Parasite",
+      "Year": "2019",
+      "Runtime": "132 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+      "id": "16"
+    },
+    {
+      "Title": "Joker",
+      "Year": "2019",
+      "Runtime": "122 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "id": "17"
+    },
+    {
+      "Title": "Dune",
+      "Year": "2021",
+      "Runtime": "155 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "id": "18"
+    },
+    {
+      "Title": "Everything Everywhere All at Once",
+      "Year": "2022",
+      "Runtime": "139 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg",
+      "id": "19"
+    },
+    {
+      "Title": "Top Gun: Maverick",
+      "Year": "2022",
+      "Runtime": "130 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_SX300.jpg",
+      "id": "20"
+    },
+    {
+      "Title": "Black Panther",
+      "Year": "2018",
+      "Runtime": "134 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SX300.jpg",
+      "id": "21"
+    },
+    {
+      "Title": "Get Out",
+      "Year": "2017",
+      "Runtime": "104 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg",
+      "id": "22"
+    },
+    {
+      "Title": "Mad Max: Fury Road",
+      "Year": "2015",
+      "Runtime": "120 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "id": "23"
+    },
+    {
+      "Title": "Oppenheimer",
+      "Year": "2023",
+      "Runtime": "180 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+      "id": "24"
+    },
+    {
+      "Title": "Barbie",
+      "Year": "2023",
+      "Runtime": "114 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "id": "25"
+    }
+  ],
+  "users": [
+    {
+      "name": "John",
+      "email": "john@test.com",
+      "password": "John#123",
+      "id": "VCx5Ys9dbVM",
+      "cart": [
+        "18",
+        "24",
+        "4",
+        "7",
+        "3"
+      ],
+      "favourites": [
+        "3",
+        "1",
+        "6",
+        "11"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
