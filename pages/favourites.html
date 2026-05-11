@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Favourites</title>
-    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
     <link
       rel="shortcut icon"
-      href="/assets/img/favicon.ico"
+      href="assets/img/favicon.ico"
       type="image/x-icon"
     />
     <script>
       if (!localStorage.getItem("loggedInUser")) {
-        window.location.replace("/pages/login.html");
+        window.location.replace("pages/login.html");
       }
     </script>
   </head>
@@ -26,17 +26,17 @@
           <input type="text" id="search-input" placeholder="Search Movies..." />
         </div>
         <div class="nav-links">
-          <a href="/pages/cart.html" class="nav-btn btn-cart">Cart🛒</a>
-          <a href="/pages/favourites.html" class="nav-btn btn-favourite active"
+          <a href="pages/cart.html" class="nav-btn btn-cart">Cart🛒</a>
+          <a href="pages/favourites.html" class="nav-btn btn-favourite active"
             >Favourites❤️</a
           >
           <span class="nav-divider"></span>
 
           <div class="guest-links">
-            <a href="/pages/register.html" class="nav-btn btn-register"
+            <a href="pages/register.html" class="nav-btn btn-register"
               >Register</a
             >
-            <a href="/pages/login.html" class="nav-btn btn-login">Login</a>
+            <a href="pages/login.html" class="nav-btn btn-login">Login</a>
           </div>
           <div class="user-links">
             <span class="user-greeting"></span>
